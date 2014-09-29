@@ -201,6 +201,18 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/base\/_forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -467,7 +479,7 @@
 	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -601,7 +613,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/penelopeboyd-com.localhost:8082\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
