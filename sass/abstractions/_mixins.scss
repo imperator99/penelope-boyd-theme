@@ -1,0 +1,62 @@
+/* Mixins and other abstractions */
+
+@mixin hide-element {
+  display: none;
+  visibility: hidden;
+}
+
+@mixin show-element {
+	display: block;
+	visibility: visible;
+}
+
+// These two mixins will style table columns to percentages given
+// when called.
+
+@mixin th-width($col, $width) {
+    #{$col} {  
+        width: $width;  
+    }
+}
+
+@mixin table-columns($widths...) {
+    table-layout: fixed;
+    width: 100%;
+    th, td, td > p {}
+    $n: 1;
+    $var: "th:nth-child(" + $n + ")";
+    @each $width in $widths {
+        @include th-width($var, $width);
+        $n: $n + 1;
+        $var: "th:nth-child(" + $n + ")";
+    }
+}
+
+%button-style {
+	text-align: center;
+    padding: $vert-spacing-unit 0;
+    a {
+        @include background(linear-gradient(top, tint($dark-blue, 20%), $dark-blue));
+        @include border-radius;
+        border: $border;
+        color: $white;
+        padding: 5px;
+        &:hover {
+            @include background(linear-gradient(top, tint($dark-blue, 30%), tint($dark-blue, 10%)));
+            text-decoration: none;
+        }
+    }
+}
+
+@mixin reset-container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

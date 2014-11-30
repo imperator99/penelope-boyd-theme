@@ -1,0 +1,11 @@
+// Header styles
+
+header {
+	background: $dark-grey;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
+	.l-header {
+		margin-bottom: $vert-spacing-unit;
+	}
+}

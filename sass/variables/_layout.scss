@@ -1,0 +1,22 @@
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 20px;
+$horz-spacing-unit: 1.25em;
+
+// Susy Variables
+
+$susy: (
+	columns: 12,
+	container: 960px,
+);
+
+//Breakpoints. Names are what the size 'breaks into' from below, for example, mobile->tablet = $bp-tablet
+$bp-tablet: 48em;
+$bp-desk: 62em;
+$bp-wide: 75em;
+$bp-mega: 120em;
+
+//Column counts. The larger the screen size, the more columns we can have.
+$tab-cols: 12;
+$desk-cols: 12;
+$wide-cols: 16;
+$mega-cols: 24;

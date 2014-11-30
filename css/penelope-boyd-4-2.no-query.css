@@ -1,5 +1,266 @@
-img, media {
-  max-width: 100%;
-}
+/* Mixins and other abstractions */
+/* Global resets */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\000035}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
 
-/* No files to import found in partials/components/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+html {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+ol, ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+q, blockquote {
+  quotes: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+a img {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* Box model */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/susy-2\.1\.2\/sass\/susy\/language\/susy\/_box-sizing\.scss}line{font-family:\0000311}}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_core\.scss}line{font-family:\000039}}
+html {
+  background: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_main\.scss}line{font-family:\000031}}
+.l-main {
+  padding: 1.25em;
+  background: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_main\.scss}line{font-family:\000034}}
+  .l-main .messages {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-2\.3\.0\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000313}}
+    .l-main .messages:after {
+      content: "";
+      display: table;
+      clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%; }
+
+/* Text styles and fonts for for penelopeboyd.com */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
+html {
+  font-size: 87.5%;
+  line-height: 0.57143em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000318}}
+h1 .last, h2 .last, h3 .last, h4 .last, h5 .last, h6 .last {
+  font-family: "Dawning of a new day", cursive;
+  font-style: italic;
+  text-transform: lowercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
+h1 .first, h2 .first, h3 .first, h4 .first, h5 .first, h6 .first {
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000333}}
+h1 {
+  font-size: 2.57143em;
+  line-height: 1.11111em;
+  margin-top: 0em;
+  padding-top: 0.57143em;
+  padding-bottom: 0.57143em;
+  margin-bottom: 0.28571em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000337}}
+h2 {
+  font-size: 2.14286em;
+  line-height: 1.33333em;
+  margin-top: 0.57143em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000341}}
+h3 {
+  font-size: 1.71429em;
+  line-height: 1.33333em;
+  margin-top: 0.57143em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000345}}
+h4 {
+  font-size: 1.28571em;
+  line-height: 1.33333em;
+  margin-top: 0.57143em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000351}}
+.l-page ul ul,
+.l-page ol ol {
+  padding-left: 20px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000357}}
+li {
+  font-size: 1em;
+  line-height: 1.71429em;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000362}}
+a {
+  color: #86754d;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+  a:hover {
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000370}}
+p {
+  font-size: 1em;
+  line-height: 1.71429em;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.57143em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000375}}
+strong {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/base\/_typography\.scss}line{font-family:\0000379}}
+em {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_footer\.scss}line{font-family:\000033}}
+footer {
+  background: #333333;
+  color: #ffffff;
+  padding: 20px 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_header\.scss}line{font-family:\000033}}
+header {
+  background: #333333;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_header\.scss}line{font-family:\000038}}
+  header .l-header {
+    margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-2\.3\.0\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000313}}
+.view-works:after {
+  content: "";
+  display: table;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\000035}}
+.view-works .works-item {
+  width: 47.36842%;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/susy-2\.1\.2\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000363}}
+  .view-works .works-item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/susy-2\.1\.2\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000363}}
+  .view-works .works-item:nth-child(2n + 2) {
+    margin-left: 52.63158%;
+    margin-right: -100%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000315}}
+  .view-works .works-item h2 {
+    font-size: 1.28571em;
+    line-height: 1.33333em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\000033}}
+.l-top-menu {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-2\.3\.0\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000313}}
+  .l-top-menu:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
+  .l-top-menu .menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\0000311}}
+    .l-top-menu .menu li {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+      opacity: 0.95;
+      padding: 0.75em;
+      background: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\0000315}}
+      .l-top-menu .menu li a {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\0000318}}
+      .l-top-menu .menu li li {
+        text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\0000322}}
+      .l-top-menu .menu li.menuparent:after {
+        content: '>'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/penelopeboyd\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_navigation\.scss}line{font-family:\0000327}}
+    .l-top-menu .menu .active {
+      text-decoration: underline;
+      color: #86754d; }

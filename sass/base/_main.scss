@@ -1,0 +1,15 @@
+.l-main {
+	padding: $horz-spacing-unit;
+	background: $white;
+	.messages {
+		@include span (full);
+		@include clearfix;
+		margin-bottom: $vert-spacing-unit;
+	}
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-page {
+		@include container;
+	}
+}

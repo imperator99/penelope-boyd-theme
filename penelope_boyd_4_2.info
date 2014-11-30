@@ -21,14 +21,9 @@ scripts[] = js/penelope-boyd-4-2.behaviors.js
 ; ========================================
 ; Regions
 ; ========================================
-regions[branding] = Branding
 regions[header] = Header
-regions[navigation] = Navigation
-regions[highlighted] = Highlighted
-regions[help] = Help
+regions[menu] = Menu
 regions[content] = Content
-regions[sidebar_first] = First Sidebar
-regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
 ; ========================================

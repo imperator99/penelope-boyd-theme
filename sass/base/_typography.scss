@@ -1,0 +1,85 @@
+/* Text styles and fonts for for penelopeboyd.com */
+
+//Vertical Rhythm settings
+
+$base-font-size: 14px;
+$base-line-height: 8px;
+@include establish-baseline;
+
+$font-family: "Source Sans Pro", sans-serif;
+
+body {
+    font-family: $font-family;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    .last {
+        font-family: "Dawning of a new day", cursive;
+        font-style: italic;
+        text-transform: lowercase;
+    }
+    .first {
+        text-transform: uppercase;
+    }
+}
+
+// The Rhythm mixin takes 5 variables: leader (top margin),
+// padding-leader (top padding), padding-trailer (bottom-padding)
+// trailer (bottom margin) and the font size. These are given as units of
+// the base line height given in the VR settings.
+
+h1 {
+    @include adjust-font-size-to(36px);
+    @include rhythm(0, 1, 1, 0.5);
+}
+h2 {
+    @include adjust-font-size-to(30px);
+    @include rhythm(1, 0, 0, 0.5);
+}
+h3 {
+    @include adjust-font-size-to(24px);
+    @include rhythm(1, 0, 0, 0.5);
+}
+h4 {
+    @include adjust-font-size-to(18px);
+    @include rhythm(1, 0, 0, 0.5);
+}
+
+.l-page {
+    ul ul,
+    ol ol {
+        padding-left: $inner-padding !important;
+    }
+}
+
+li {
+    @include adjust-font-size-to($base-font-size);
+    @include rhythm(0, 0, 0, 0);
+}
+
+a {
+    color: $dark-gold;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+p {
+    @include adjust-font-size-to($base-font-size);
+    @include rhythm(0, 0, 0, 1);
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+
+}

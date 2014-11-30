@@ -1,0 +1,11 @@
+// Core resets, styles etc.
+
+/* Global resets */
+@include global-reset;
+
+/* Box model */
+@include global-box-sizing(border-box);
+
+html {
+	background: $dark-grey;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://penelopeboyd-com.localhost:8082"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>admin_033&#039;s blog</title>
+ <link>http://penelopeboyd-com.localhost:8082/blog/1</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Test blog entry</title>
+ <link>http://penelopeboyd-com.localhost:8082/test-blog-entry</link>
+ <description>&lt;div class=&quot;field field--name-body field--type-text-with-summary field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;p&gt;This is a test blog entry.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 29 Sep 2014 12:16:29 +0000</pubDate>
+ <dc:creator>admin_033</dc:creator>
+ <guid isPermaLink="false">49 at http://penelopeboyd-com.localhost:8082</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,32 @@
+// Menu styles for penelopeboyd.com.
+
+.l-top-menu {
+	@include span(full);
+	@include clearfix;
+	margin-bottom: $vert-spacing-unit;
+	.menu {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		li {
+			@include opacity(0.95);
+			padding: 0.75em;
+			background: $white;
+			a {
+				@include opaque;
+			}
+			li {
+				text-align: left;
+			}
+			&.menuparent {
+				&:after {
+					content: '>';
+				}
+			}
+		}
+		.active {
+			text-decoration: underline;
+			color: $dark-gold;
+		}
+	}
+}
