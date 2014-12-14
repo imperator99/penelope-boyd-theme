@@ -1,0 +1,24 @@
+// Infobox styles for works.
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.js {
+		.gallery-item {
+			position: relative;
+		}
+		.info-box {
+			@include opacity(0.8);
+			@include transition;
+			background: $white;
+			bottom: 0;
+			display: none;
+			left: 34px;
+			padding: 0.5em;
+			position: absolute;
+			width: 151px;
+			&.show {
+				display: block;
+				@include transition;
+			}
+		}
+	}
+}

@@ -8,4 +8,7 @@ header {
 	.l-header {
 		margin-bottom: $vert-spacing-unit;
 	}
+	a:hover {
+		text-decoration: none;
+	}
 }

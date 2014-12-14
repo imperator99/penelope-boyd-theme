@@ -3,30 +3,73 @@
 .l-top-menu {
 	@include span(full);
 	@include clearfix;
+	border-bottom: 1px solid $light-grey;
 	margin-bottom: $vert-spacing-unit;
 	.menu {
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
+		@include clearfix;
 		li {
 			@include opacity(0.95);
 			padding: 0.75em;
 			background: $white;
-			a {
+			a,
+			span {
 				@include opaque;
+				border-left: 5px solid $white;
+				padding: 0 0.5em;
+				&:hover {
+					text-decoration: none;
+					border-left: 5px solid $light-grey;
+					@include transition;
+				}
 			}
 			li {
 				text-align: left;
 			}
 			&.menuparent {
 				&:after {
-					content: '>';
+					content: '+';
+					position: absolute;
+					top: 25%;
+					right: 0;
+					font-weight: bold;
+					color: $dark-gold;
+				}
+				ul {
+					padding-left: 0 !important;
+					border: 1px solid $light-grey;
+					border-top: none;
+					top: 45px;
 				}
 			}
 		}
 		.active {
-			text-decoration: underline;
 			color: $dark-gold;
+			border-left: 5px solid $dark-gold;
+		}
+	}
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-top-menu {
+		.menu {
+			@include center-block;
+			width: 43em;
+			li {
+				padding-left: 1.5em;
+				padding-right: 2em;
+				&.menuparent {
+					&:after {
+						right: 15%;
+					}
+					ul {
+						top: 44px;
+					}
+				}
+			}
+			a,
+			span {
+				@include adjust-font-size-to(18px);
+			}
 		}
 	}
 }

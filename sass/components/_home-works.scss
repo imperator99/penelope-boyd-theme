@@ -2,18 +2,28 @@
 
 .view-works {
 	@include clearfix;
-	.works-item {
+	.works-item,
+	.gallery-item {
 		@include gallery (2 of 4);
 		@include susy-breakpoint($bp-tablet, $tab-cols) {
 			@include gallery ($desk-cols / 3 of $desk-cols);
 		}
 		@include susy-breakpoint($bp-desk, $desk-cols) {
 			@include gallery($desk-cols / 4 of $desk-cols);
+			a {
+				@include opacity(0.9);
+				@include transition;
+				&:hover {
+					@include opaque;
+					@include transition;
+				}
+			}
 		}
 		margin-bottom: $vert-spacing-unit;
 		text-align: center;
 		h2 {
 			@include adjust-font-size-to(18px);
 		}
+
 	}
 }

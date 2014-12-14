@@ -19,10 +19,12 @@ h1, h2, h3, h4, h5, h6 {
         font-family: "Dawning of a new day", cursive;
         font-style: italic;
         text-transform: lowercase;
+        font-variant: normal;
     }
     .first {
         text-transform: uppercase;
     }
+    font-variant: small-caps;
 }
 
 // The Rhythm mixin takes 5 variables: leader (top margin),
@@ -31,19 +33,19 @@ h1, h2, h3, h4, h5, h6 {
 // the base line height given in the VR settings.
 
 h1 {
-    @include adjust-font-size-to(36px);
+    @include adjust-font-size-to(30px);
     @include rhythm(0, 1, 1, 0.5);
 }
 h2 {
-    @include adjust-font-size-to(30px);
-    @include rhythm(1, 0, 0, 0.5);
-}
-h3 {
     @include adjust-font-size-to(24px);
     @include rhythm(1, 0, 0, 0.5);
 }
+h3 {
+    @include adjust-font-size-to(20px);
+    @include rhythm(0, 1, 0.5, 0);
+}
 h4 {
-    @include adjust-font-size-to(18px);
+    @include adjust-font-size-to(16px);
     @include rhythm(1, 0, 0, 0.5);
 }
 
@@ -63,7 +65,7 @@ a {
     color: $dark-gold;
     text-decoration: none;
     &:hover {
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
