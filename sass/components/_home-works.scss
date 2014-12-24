@@ -5,10 +5,34 @@
 	.works-item,
 	.gallery-item {
 		@include gallery (2 of 4);
-		@include susy-breakpoint($bp-tablet, $tab-cols) {
-			@include gallery ($desk-cols / 3 of $desk-cols);
+		margin-bottom: $vert-spacing-unit;
+		text-align: center;
+		h2 {
+			@include adjust-font-size-to(18px);
 		}
-		@include susy-breakpoint($bp-desk, $desk-cols) {
+		&.views-row-last {
+			@include hide-element;
+		}
+	}
+}
+
+// Responsiveness
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.view-works {
+		.works-item,
+		.gallery-item {
+			@include gallery ($tab-cols / 3 of $tab-cols);
+			&.views-row-last {
+				@include show-element;
+			}
+		}
+	}
+}
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.view-works {
+		.works-item,
+		.gallery-item {
 			@include gallery($desk-cols / 4 of $desk-cols);
 			a {
 				@include opacity(0.9);
@@ -18,12 +42,9 @@
 					@include transition;
 				}
 			}
+			&.views-row-last {
+				@include hide-element;
+			}
 		}
-		margin-bottom: $vert-spacing-unit;
-		text-align: center;
-		h2 {
-			@include adjust-font-size-to(18px);
-		}
-
 	}
 }

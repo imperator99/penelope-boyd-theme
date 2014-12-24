@@ -499,42 +499,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/html\/sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1779,7 +1743,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/penelopeboyd-com.localhost:8082",
+	"externalServerAddress": "http:\/\/penelopeboyd-com.local:8083\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

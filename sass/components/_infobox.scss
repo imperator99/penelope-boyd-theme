@@ -15,9 +15,12 @@
 			padding: 0.5em;
 			position: absolute;
 			width: 151px;
-			&.show {
-				display: block;
-				@include transition;
+			@include adjust-font-size-to(12px);
+			text-align: left;
+			h3,
+			p {
+				@include rhythm(0,0,0,0);
+				line-height: normal;
 			}
 		}
 	}
