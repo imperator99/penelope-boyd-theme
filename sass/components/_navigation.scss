@@ -1,21 +1,23 @@
 // Menu styles for penelopeboyd.com.
 
-.l-top-menu {
+#block-system-main-menu {
 	@include span(full);
 	@include clearfix;
-	border-bottom: 1px solid $light-grey;
 	margin-bottom: $vert-spacing-unit;
 	.menu {
-		@include clearfix;
+		.leaf {
+			list-style:none;
+		}
 		li {
 			@include opacity(0.95);
-			padding: 0.75em;
+			padding: 0.2em 0 0.2em 0;
 			background: $white;
 			a,
 			span {
 				@include opaque;
+				@include adjust-font-size-to(18px);
 				border-left: 5px solid $white;
-				padding: 0 0.5em;
+				padding: 0 0.2em;
 				&:hover {
 					text-decoration: none;
 					border-left: 5px solid $light-grey;
@@ -49,27 +51,36 @@
 	}
 }
 
-@include susy-breakpoint($bp-tablet, $tab-cols) {
-	.l-top-menu {
-		.menu {
-			@include center-block;
-			width: 43em;
-			li {
-				padding-left: 1.5em;
-				padding-right: 2em;
-				&.menuparent {
-					&:after {
-						right: 15%;
-					}
-					ul {
-						top: 44px;
-					}
-				}
-			}
-			a,
-			span {
-				@include adjust-font-size-to(18px);
-			}
-		}
-	}
+// Mobile menu styles
+#block-system-main-menu {
+	position: relative;
+}
+.top-menu-control {
+    @include float-left;
+    margin: 4px 15px 8px 8px;
+    position: relative;
+    a {
+        display: block;
+    }
+    .icon-bar {
+        @include border-radius(2px);
+        background: $lighter-gold;
+        display: block;
+        height: 3px;
+        width: 22px;
+        +.icon-bar {
+            margin-top: 4px;
+        }
+    }
+    &+.menu.controlled {
+        padding: 0;
+        .hide-items {
+            position: absolute;
+            width: 100%;
+            z-index: 10;
+            @include opacity(0.95);
+            top: 25px;
+        }
+    }
+    
 }

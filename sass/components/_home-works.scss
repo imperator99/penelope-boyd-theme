@@ -1,5 +1,8 @@
 // Home page Works
-
+.flex-caption {
+	height: 2em;
+	color: $dark-gold;
+}
 .view-works {
 	@include clearfix;
 	.works-item,
@@ -13,6 +16,12 @@
 		&.views-row-last {
 			@include hide-element;
 		}
+	}
+}
+
+.view-display-id-works_slideshow {
+	.slideshow-item {
+		text-align: center;
 	}
 }
 

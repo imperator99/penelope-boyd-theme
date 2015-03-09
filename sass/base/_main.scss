@@ -1,5 +1,6 @@
 .l-main {
-	padding: $horz-spacing-unit;
+	@include container;
+	padding: $horz-spacing-unit / 2 $horz-spacing-unit;
 	background: $white;
 	.messages {
 		@include span (full);
@@ -7,9 +8,25 @@
 		margin-bottom: $vert-spacing-unit;
 	}
 }
+.l-content {
+	@include span(full);
+}
+
+.l-top-menu {
+	@include span(full);
+}
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.l-page {
 		@include container;
+	}
+	.l-top-menu {
+		@include span($tab-cols / 4 of $tab-cols);
+	}
+	.l-content {
+		@include span(last $tab-cols / 4 * 3 of $tab-cols);
+	}
+	.l-footer {
+		@include span(full);
 	}
 }

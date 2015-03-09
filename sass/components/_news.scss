@@ -1,0 +1,18 @@
+// News page style
+
+.news-item {
+	@include clearfix;
+	border-bottom: $border;
+	margin-bottom: $vert-spacing-unit;
+	padding-bottom: $vert-spacing-unit / 2;
+}
+
+.news-date {
+	font-style: italic;
+}
+
+.news-image {
+	@include float-left;
+	margin-right: $horz-spacing-unit;
+	margin-bottom: $vert-spacing-unit / 2;
+}

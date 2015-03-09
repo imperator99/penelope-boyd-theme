@@ -6,11 +6,11 @@
       </h1>
       <?php print render($page['header']); ?>
     </div>
-    <div class = "l-top-menu" role="navigation">
-      <?php print render($page['menu']); ?>
-    </div>
   </header>
   <div class="l-main">
+    <div class="l-top-menu" role="navigation">
+      <?php print render($page['menu']); ?>
+    </div>
     <div class="l-content" role="main">
       <a id="main-content"></a>
       <?php print $messages; ?>
