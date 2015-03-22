@@ -3,6 +3,9 @@
 	height: 2em;
 	color: $dark-gold;
 }
+.flexslider .slides img {
+	width: auto !important;
+}
 .view-works {
 	@include clearfix;
 	.works-item,

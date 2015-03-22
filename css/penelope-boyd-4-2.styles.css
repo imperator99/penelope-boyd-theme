@@ -259,12 +259,16 @@ header {
   height: 2em;
   color: #86754d; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\000036}}
+.flexslider .slides img {
+  width: auto !important; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/toolkit-2\.3\.0\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000313}}
 .view-works:after {
   content: "";
   display: table;
   clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000311}}
 .view-works .works-item,
 .view-works .gallery-item {
   width: 47.36842%;
@@ -284,23 +288,23 @@ header {
     margin-left: 52.63158%;
     margin-right: -100%;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000316}}
   .view-works .works-item h2,
   .view-works .gallery-item h2 {
     font-size: 1.28571em;
     line-height: 1.33333em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000319}}
   .view-works .works-item.views-row-last,
   .view-works .gallery-item.views-row-last {
     display: none;
     visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000326}}
 .view-display-id-works_slideshow .slideshow-item {
   text-align: center; }
 
 @media (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000334}}
   .view-works .works-item,
   .view-works .gallery-item {
     width: 32.20339%;
@@ -324,13 +328,13 @@ header {
       margin-left: 67.79661%;
       margin-right: -100%;
       clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000337}}
     .view-works .works-item.views-row-last,
     .view-works .gallery-item.views-row-last {
       display: block;
       visibility: visible; } }
 @media (min-width: 62em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000346}}
   .view-works .works-item,
   .view-works .gallery-item {
     width: 23.72881%;
@@ -360,7 +364,7 @@ header {
       margin-left: 76.27119%;
       margin-right: -100%;
       clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000349}}
     .view-works .works-item a,
     .view-works .gallery-item a {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
@@ -369,7 +373,7 @@ header {
       -o-transition: all 1s;
       -webkit-transition: all 1s;
       transition: all 1s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000352}}
       .view-works .works-item a:hover,
       .view-works .gallery-item a:hover {
         filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -378,7 +382,7 @@ header {
         -o-transition: all 1s;
         -webkit-transition: all 1s;
         transition: all 1s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/penelopeboyd-com\/docroot\/sites\/all\/themes\/penelope_boyd_4_2\/sass\/components\/_home-works\.scss}line{font-family:\0000357}}
     .view-works .works-item.views-row-last,
     .view-works .gallery-item.views-row-last {
       display: none;
